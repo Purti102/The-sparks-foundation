@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Data Table with Filter Row Feature</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="website.css">
+<style>
+    body{
+        background-image: url(bank.jpg);
+        background-repeat: no-repeat;
+        background-size:  cover;
+
+    }
+</style>
+</head>
+<body>
+    <div class="wrapper">
+
+    <div class="logo">
+        <img src="logo.jpg" alt="">
+        <h2 class="nav-area">THE SPARKS BANK</h2>
+    </div>
+<ul class="nav-area">
+<li><a href="website.html">Home</a></li>
+<li><a href="websitecustomer.html">Customer details</a></li>
+<li><a href="Send Money.html">Send Money</a></li>
+
+</ul>
+</div>
+<div class="welcome-text">
+
+
+    <div class="table-wrapper">
+        <div class="table-title">
+            <div class="row">
+
+            </div>
+        </div>
+        <center>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <tr class="table-danger">
+                    <th scope="col">SR. No.</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">E-mail ID</th>
+                    <th scope="col">Bank Balance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-light">
+                    <td scope="row">1</td>
+                    <td>Shaily</td>
+                    <td>shaily@email.com</td>
+                    <td>
+                        <p id="shailyBankBalance">50000</p>
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td scope="row">2</td>
+                    <td>Alpa</td>
+                    <td>alpa@email.com</td>
+                    <td>
+                        <p id="alpadBankBalance">24000</p>
+                    </td>
+                </tr>
+                <tr class="table-light">
+                    <td scope="row">3</td>
+                    <td>Shruti</td>
+                    <td>shruti@email.com</td>
+                    <td>
+                        <p id="shrutiBankBalance">30000</p>
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td scope="row">4</td>
+                    <td>Man</td>
+                    <td>man@email.com</td>
+                    <td>
+                        <p id="manBankBalance">40000</p>
+                    </td>
+                </tr>
+                <tr class="table-light">
+                    <td scope="row">5</td>
+                    <td>Hetvi</td>
+                    <td>hetvi@email.com</td>
+                    <td>
+                        <p id="hetviBankBalance">60000</p>
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td scope="row">6</td>
+                    <td>Nikita</td>
+                    <td>nikita@email.com</td>
+                    <td>
+                        <p id="nikitaBankBalance">100000</p>
+                    </td>
+                </tr>
+                <tr class="table-light">
+                    <td>7</td>
+                    <td>Tanishka</td>
+                    <td>tanishka@email.com</td>
+                    <td>
+                        <p id="tanishkaBankBalance">56000</p>
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td scope="row">8</td>
+                    <td>Nandini</td>
+                    <td>nandini@email.com</td>
+                    <td>
+                        <p id="nandiniBankBalance">35000</p>
+                    </td>
+                </tr>
+                <tr class="table-light">
+                    <td scope="row">9</td>
+                    <td>Mrunal</td>
+                    <td>mrunal@email.com</td>
+                    <td>
+                        <p id="mrunalBankBalance">85000</p>
+                    </td>
+                </tr>
+                <tr class="table-info">
+                    <td scope="row">10</td>
+                    <td>Pushti</td>
+                    <td>pushti@email.com</td>
+                    <td>
+                        <p id="pushtiBankBalance">145000</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+            
+                    
+            </tbody>
+        </table>
+    </center>
+    </div> 
+<script src="javascript.js"></script>
+    
+</body>
+</html>                          
